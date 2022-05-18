@@ -10,7 +10,7 @@ Daily Problems for Students in Class 5 at High School Attached to Northeast Norm
 
 更新周期：约每周一次
 
-除Texlive 2021自带内容外，引用了@xkwxdyy 的两个LaTeX宏包：
+除Texlive 2021自带内容外，引用了[@xkwxdyy](https://github.com/xkwxdyy) 的两个LaTeX宏包：
 
 xchoices: https://github.com/xkwxdyy/xchoices
 
