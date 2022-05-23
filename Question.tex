@@ -635,4 +635,56 @@
 	已知函数$ f(x)=\eu^x(\sin x-ax^2+2a-\eu) $.
 	\\(1)当$ a=0 $时，讨论$ f(x) $的单调性；
 	\\(2)当$ \dfrac{1}{2}\le a\le 1 $时，求证：$ \forall x\ge0 $，$ f(x)<0 $.
+	\clearpage\section{第十三周}
+	\subsection{星期一39}\noindent
+	已知函数$ f(x)=(x-a)^2\ln x $，若$ \forall x\in(0,3\eu] $，恒有$ f(x)\le4\eu^2 $成立，求实数$ a $的取值范围.
+	\\\,\\\,\\\,\\\,\\\,\\\,\\\,\\\,\\\,
+	\subsection{星期二06}\label{132}\noindent
+	如图\:\ref{132}\:所示，一长度$ L=\SI{8}{m} $，质量$ M=\SI{0.2}{kg} $的木板紧靠墙壁放置在光滑水平地面上，在距木板左端为$ kL \:(0<k<1)$处放置着A, B两个小木块(均可视为质点)，质量均为$ m=\SI{0.2}{kg} $. 某时刻，木块A, B在强大内力作用下分开，分开瞬间内力消失，此时木块A的速度$ v_{\mathrm{A}}=\SI{4}{m/s} $，方向水平向左. 已知木块B在与墙壁碰撞过程中不损失机械能，木块A, B与木板间的动摩擦因数分别为$ \mu_{\mathrm{A}}=0.2, \mu_{\mathrm{B}}=0.3 $.
+	\begin{figure}[htp!]
+		\centering
+		\begin{tikzpicture}[>=stealth]
+			\definecolor{grey}{RGB}{205,205,205}
+			\draw[fill=grey] (0,0)rectangle +(10,1);
+			\draw (-3,0) -- (11,0);
+			\draw (3,1)rectangle +(1,1);
+			\node at (3.5,1.5) {A};
+			\draw (4,1)rectangle +(1,1);
+			\node at (4.5,1.5) {B};
+			\draw[|<->|] (0,2.25)--node[fill=white]{$ kL $}+(3,0);
+			\draw[|<->|] (0,-.5)--node[fill=white]{$ L $}+(10,0);
+			\foreach \x in {-2.8,-2.5,...,11} \draw (\x,0)--+(-.3,-.3);
+			\draw (10,0)--+(0,3);
+			\foreach \y in {.1,.4,...,2.8} \draw (10,\y)--+(.3,.3);
+			\node at (4,-1) {图\:\ref{132}};
+		\end{tikzpicture}
+	\end{figure}\\
+	(1)求木块$ A,B $分离瞬间，木块$ B $的速度大小$ v_1 $；\\
+	(2)若$ k=\dfrac{3}{8} $，求木块$ A $离开木板时，木块$ B $的速度大小$ v_2 $；\\
+	(3)若$ \mu_{\mathrm{A}}=0 $，求摩擦力对木块$ B $做的功$ W_f $.
+	\clearpage\subsection{星期三47}\noindent
+	已知函数$ f(x)=\sin^2x\sin2x $.
+	\\(1)讨论$ f(x) $在区间$ (0,\pi) $的单调性；
+	\\(2)求证：$ |f(x)|\le\dfrac{3\sqrt{3}}{8} $；
+	\\(3)设$ n\in\mathbb{N^*} $，求证：$ \sin^2x\sin^22x\sin^24x\cdots\sin^22^nx\le\dfrac{3^n}{4^n}$.
+	\\\,\\\,\\\,\\\,
+	\subsection{星期四53}\noindent
+	(多选)已知函数$ f(x) $对任意$ x\in\mathbb{R} $，均满足$ f(x)=f(2-x) $. 当$ x\le1 $时，$ f(x)=\begin{cases}
+		\ln x, &0<x\le1
+		\\\eu^x,&x\le0
+	\end{cases} $，若函数$ g(x)=m|x|-2-f(x) $，则下列说法正确的是
+	\begin{xchoices}[label-style=Alph]
+		\item 若$ m<0 $，则$ g(x) $恰有2个零点
+		\item 若$ \dfrac{3}{2}<m<\eu $，则$ g(x) $有3个零点
+		\item 若$ 0<m\le\dfrac{3}{2} $，则$ g(x) $恰有4个零点
+		\item 不存在实数$ m $使$ g(x) $恰有4个零点
+	\end{xchoices}\,\\\,\\\,\\\,
+	\subsection{星期五24}\noindent
+	已知函数$ f(x)=\ln x-\dfrac{1}{2}ax^2+(a-1)x $，其中$ a $是非零实数.
+	\\(1)求$ f(x) $的单调递增区间；
+	\\(2)记函数$ F(x) $的图象为曲线$ C $，设$ A(x_1,y_1), B(x_2,y_2) $是$ C $上两个不同点，若$ C $上存在点$ M(x_0,y_0) $使得：\begin{xchoices}[label-style=quan]
+		\item $ x_0=\dfrac{x_1+x_2}{2} $
+		\item 曲线$ C $在点$ M $处的切线平行于直线$ AB $
+	\end{xchoices}\noindent
+	则称函数$ F(x) $存在“中值相依切线”. 试问：函数$ f(x) $是否存在“中值相依切线”，并说明理由.
 \end{document}
